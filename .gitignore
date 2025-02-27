@@ -1,0 +1,82 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# Ignore package directories
+packages/
+!packages/repositories.config
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore project files that shouldn't be committed
+project.lock.json
+project.assets.json
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.cache
+*.log
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore JetBrains Rider workspace
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/libraries/
+
+# Ignore Resharper files
+*.DotSettings.user
+
+# Ignore application logs
+logs/
+*.log
+
+# Ignore user secrets (for ASP.NET Core)
+secrets.json
+**/secrets/**
+
+# Ignore Docker files
+**/docker-compose.override.yml
+
+# Ignore database files
+*.mdf
+*.ldf
+*.sqlite
+
+# Ignore environment variables files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore test results
+TestResults/
+*.trx
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore generated files
+GeneratedFiles/
+ServiceFabricBackup/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
